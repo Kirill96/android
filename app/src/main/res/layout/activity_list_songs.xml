@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_songs"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kirill.lab_34.ListSongsActivity"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_lock_silent_mode_off"
+        android:id="@+id/imageView4" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:id="@+id/listView_songs"
+        android:layout_weight="0.89" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:text="Inner Join"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/inner_join"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_weight="1" />
+
+        <Button
+            android:text="Ndk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ndk"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</LinearLayout>

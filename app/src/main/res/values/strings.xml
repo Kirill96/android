@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Lab_34</string>
+    <string name="list_songs_activity">Songs</string>
+    <string name="categories_text_view">Categories</string>
+    <string name="song_activity">Playing</string>
+</resources>
